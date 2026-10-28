@@ -1,0 +1,3 @@
+-r requirements-baseline.txt
+filterpy==1.4.5
+scipy==1.16.0

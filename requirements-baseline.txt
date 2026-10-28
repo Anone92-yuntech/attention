@@ -1,0 +1,11 @@
+# Verified with Python 3.11.13 and the existing conda envs\yolo environment.
+# PyTorch is inherited by attention\.venv, not installed by this file:
+# torch==2.9.1+cu128, torchvision==0.24.1+cu128.
+numpy==1.26.4
+opencv-python==4.11.0.86
+opencv-contrib-python==4.11.0.86
+mediapipe==0.10.21
+ultralytics==8.3.161
+jax==0.7.1
+jaxlib==0.7.1
+ml_dtypes==0.5.4

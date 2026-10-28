@@ -1,0 +1,93 @@
+{
+  "source_project": "C:\\Users\\User\\Desktop\\johnson\\medispipe_final",
+  "date": "2026-10-27",
+  "files": [
+    {
+      "path": "target_selection.py",
+      "source_sha256": "9525ce4cfb552bc280f8e8896104ec0822c50b16f5c01342fd3bbed13a615034"
+    },
+    {
+      "path": "tracking_pipeline.py",
+      "source_sha256": "70850c6d11103e65fe6e6a352cda270ff0d0c6240850e041e9074f08fc41961c"
+    },
+    {
+      "path": "posture_detection.py",
+      "source_sha256": "f6895bae35b131ea94a4c4b012a429981c3c1a0359e2c3f92b9e8b3569358192"
+    },
+    {
+      "path": "person_detector.py",
+      "source_sha256": "2684c36ca1227daab8911818d8b271a5dba3b67c501a5cb362447c24fa3b9bda"
+    },
+    {
+      "path": "ocsort_adapter.py",
+      "source_sha256": "e4f2ed7238318c18dd3884b072fe9707fe3871d5c8ca56549f25d4ca0e0bc1be"
+    },
+    {
+      "path": "vendor/ocsort/LICENSE",
+      "source_sha256": "e9d83751678cbaba6dfba902ea39215c423d93425e58f8450d6001f7261696f9"
+    },
+    {
+      "path": "vendor/ocsort/PROVENANCE.json",
+      "source_sha256": "98106859ce51493bd8942691c288df2f06a466e57c46e683820ad8b0beb76f9c"
+    },
+    {
+      "path": "vendor/ocsort/README.md",
+      "source_sha256": "0dbf4aaddccbdf24f47d428122bffd0deb9ac9d1c8c979b6baebe67f70df57b5"
+    },
+    {
+      "path": "vendor/ocsort/__init__.py",
+      "source_sha256": "9b262a8fc9f30347e4c34b4c3d2538d78836a1889f2ea45bafa6ece3ff1daaa8"
+    },
+    {
+      "path": "vendor/ocsort/trackers/__init__.py",
+      "source_sha256": "816942c134b6dc705dd30b22d557bee7eea79b223d1f1a3a497999ac4e5d49aa"
+    },
+    {
+      "path": "vendor/ocsort/trackers/ocsort_tracker/association.py",
+      "source_sha256": "c009a78eaa1c35c1d61217506255051ba882a7b99f9505cdec64da474ff0fbd7"
+    },
+    {
+      "path": "vendor/ocsort/trackers/ocsort_tracker/kalmanfilter.py",
+      "source_sha256": "165a2d5243f2b874e37d3a3ae8112402f5c53ddfb6eb6e2cddda3311c3a2cded"
+    },
+    {
+      "path": "vendor/ocsort/trackers/ocsort_tracker/ocsort.py",
+      "source_sha256": "122cc1c27d3321eac0debdf3ba782b76d189e1ac878256b8291ffeb4314fa979"
+    },
+    {
+      "path": "vendor/ocsort/trackers/ocsort_tracker/__init__.py",
+      "source_sha256": "5166efeab480263e0137b98030634ffa7d8a8afe10424d981e77838706f9587a"
+    },
+    {
+      "path": "models/yolox_nano.onnx",
+      "source_sha256": "c789161ed43c8269fcd4e67c67eeeb4e80c622da2eb296a20bc6007bd18a0b7d"
+    },
+    {
+      "path": "models/pose_landmarker_lite.task",
+      "source_sha256": "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a"
+    },
+    {
+      "path": "tests/test_selection.py",
+      "source_sha256": "b98bab7197380283205c8eeae0ab28cc687abab9c08a47bd6d25409d5e8ecae5"
+    },
+    {
+      "path": "tests/test_tracker.py",
+      "source_sha256": "7d99acad80a16dea5682d756f0b0c5da63713776fd258c7d8ffdaaa43a0d9875"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "source_sha256": "cebf46e0a98806ea097967c01bf6823102a77bb0af70f96de934390a73a71087"
+    },
+    {
+      "path": "tests/test_detector.py",
+      "source_sha256": "b498c5d9cf5a1ecb5ef53294f09f891b12e1ffeebc09428dc574b39b79f92889"
+    },
+    {
+      "path": "tests/test_posture.py",
+      "source_sha256": "0942d073c84e599966754bf976234453b7fc2f13eeb1ba42f772561ae3ab925b"
+    }
+  ],
+  "adaptations": {
+    "tracking_pipeline.py": "Add optional posture-landmark gating flag; attention disables the unrelated table-rest requirement. Selection and official OC-SORT algorithm are retained."
+  }
+}

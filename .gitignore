@@ -1,0 +1,50 @@
+# Local runtimes and generated artifacts
+.venv/
+venv/
+.cache/
+__pycache__/
+*.py[cod]
+logs/
+publish/
+*.log
+*.tmp
+*.part
+*.download
+
+# Models are distributed as checksum-verified GitHub Release assets.
+/best.pt
+/models/*.onnx
+/models/*.task
+
+# Private input videos, extracted frames, audio, and per-run data
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.m4v
+*.wmv
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.wav
+*.mp3
+*.csv
+
+# Keep the archived source, but not its reports or rendered media
+baseline_verification/*
+!baseline_verification/source/
+baseline_verification/source/*
+!baseline_verification/source/*.py
+
+# Credentials and editor/OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
